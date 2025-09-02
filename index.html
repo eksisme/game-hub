@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ultimate Game Hub - Open Source & Proxy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { background: #181b2c; color: #fff; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; }
+    header { padding: 1.2em 0 0.5em 0; background: #23243a; color: #72f1b8; font-size: 2.3em; font-weight: bold; text-align: center; letter-spacing: 0.04em; }
+    .container { max-width: 1400px; margin: 0 auto; padding: 2em 1em; }
+    .proxy-section, .games-section { margin-bottom: 2.6em; }
+    h2 { color: #72f1b8; margin-bottom: 0.8em; }
+    .proxy-list { display: flex; flex-wrap: wrap; gap: 1.2em; margin-bottom: 0.8em; }
+    .proxy-link {
+      background: #2a2d40;
+      color: #72f1b8;
+      padding: 0.7em 2.2em;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      border: 2px solid #72f1b8;
+      transition: background 0.15s, color 0.15s;
+    }
+    .proxy-link:hover { background: #72f1b8; color: #1a1a2a; }
+    .game-list { display: flex; flex-wrap: wrap; gap: 2em; justify-content: center; }
+    .game-card {
+      background: #22243d;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px #0007;
+      width: 340px;
+      min-height: 235px;
+      padding: 1em 1em 1.4em 1em;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .game-card h3 { margin: 0.2em 0 0.5em 0; color: #fff; font-size: 1.19em;}
+    .game-desc { color: #bde2ff; font-size: 1em; margin-bottom: 1em; }
+    .game-actions { margin-top: auto; }
+    .game-actions a {
+      margin: 0 0.38em 0.38em 0.38em;
+      background: #72f1b8;
+      color: #23243a;
+      text-decoration: none;
+      padding: 0.5em 1.4em;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.15s;
+      display: inline-block;
+      font-size: 1em;
+    }
+    .game-actions a:hover { background: #49d9a6; }
+    .panic-tip { color:#ffc9a3; margin-top: 1.3em; font-size: 1.1em; text-align: center;}
+    .about { color:#bde2ff;max-width:820px;margin: 2.5em auto 1.5em auto; font-size: 1.08em;}
+    @media (max-width: 900px) { .game-list { flex-direction: column; align-items: center; } .game-card { width: 97vw; } }
+  </style>
+</head>
+<body>
+<header>
+  Ultimate Game Hub <span style="font-size:0.6em;color:#fffa;">(Press <b>8</b> for Panic Google!)</span>
+</header>
+<div class="container">
+  <section class="proxy-section">
+    <h2>Proxy & Unblocker Links (educational use only)</h2>
+    <div class="proxy-list">
+      <a class="proxy-link" href="https://holyubofficial.net/" target="_blank" rel="noopener">Holy Unblocker</a>
+      <a class="proxy-link" href="https://incognitoproxy.com" target="_blank" rel="noopener">Incognito Proxy</a>
+      <a class="proxy-link" href="https://interstellars.space/" target="_blank" rel="noopener">Interstellar</a>
+      <a class="proxy-link" href="https://mathsolver.pro/" target="_blank" rel="noopener">Math Solver (Ultraviolet)</a>
+      <a class="proxy-link" href="https://www.croxyproxy.com/" target="_blank" rel="noopener">CroxyProxy</a>
+      <a class="proxy-link" href="https://rammerhead.org/" target="_blank" rel="noopener">Rammerhead</a>
+      <a class="proxy-link" href="https://pipedream.su/" target="_blank" rel="noopener">Pipedream</a>
+      <a class="proxy-link" href="https://unblocker.cc/" target="_blank" rel="noopener">Unblocker.cc</a>
+      <a class="proxy-link" href="https://titaniumnetwork.org/" target="_blank" rel="noopener">Titanium Network</a>
+    </div>
+    <small style="color:#bde2ff;">No guarantee any proxy will work at your school. Use respectfully.</small>
+  </section>
+  <section class="games-section">
+    <h2>Massive Open Source Game Library</h2>
+    <div class="game-list">
+
+      <!-- 2048 -->
+      <div class="game-card">
+        <h3>2048</h3>
+        <div class="game-desc">Classic tile puzzle. Get to 2048!</div>
+        <div class="game-actions">
+          <a href="https://gabrielecirulli.github.io/2048/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/gabrielecirulli/2048" target="_blank" rel="noopener">Source</a>
+          <a href="https://incognitoproxy.com/service/gabrielecirulli.github.io/2048/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Hextris -->
+      <div class="game-card">
+        <h3>Hextris</h3>
+        <div class="game-desc">Fast-paced Tetris-like hexagon game.</div>
+        <div class="game-actions">
+          <a href="https://hextris.github.io/hextris/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/Hextris/hextris" target="_blank" rel="noopener">Source</a>
+          <a href="https://interstellars.space/service/hextris.github.io/hextris/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Breakout -->
+      <div class="game-card">
+        <h3>Breakout</h3>
+        <div class="game-desc">Classic brick-breaker game.</div>
+        <div class="game-actions">
+          <a href="https://codeexplained.org/breakout/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/CodeExplainedRepo/Breakout" target="_blank" rel="noopener">Source</a>
+          <a href="https://mathsolver.pro/service/codeexplained.org/breakout/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Chrome Dino -->
+      <div class="game-card">
+        <h3>Chrome Dino</h3>
+        <div class="game-desc">The famous offline Dino game.</div>
+        <div class="game-actions">
+          <a href="https://dino-chrome.com/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/cdnjs/dino" target="_blank" rel="noopener">Source</a>
+          <a href="https://rammerhead.org/service/dino-chrome.com/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Flappy Bird -->
+      <div class="game-card">
+        <h3>Flappy Bird</h3>
+        <div class="game-desc">Open source Flappy Bird remake.</div>
+        <div class="game-actions">
+          <a href="https://nebezb.com/floppybird/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/nebez/floppybird" target="_blank" rel="noopener">Source</a>
+          <a href="https://unblocker.cc/service/nebezb.com/floppybird/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Minesweeper -->
+      <div class="game-card">
+        <h3>Minesweeper</h3>
+        <div class="game-desc">Classic logic puzzle game.</div>
+        <div class="game-actions">
+          <a href="https://minesweeper.online/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/thecodingtrain/website/tree/main/Tutorials/P5/101_Minesweeper" target="_blank" rel="noopener">Source</a>
+          <a href="https://incognitoproxy.com/service/minesweeper.online/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Tetris -->
+      <div class="game-card">
+        <h3>Tetris</h3>
+        <div class="game-desc">Browser Tetris game.</div>
+        <div class="game-actions">
+          <a href="https://js-tetris.com/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/jstetris/jstetris" target="_blank" rel="noopener">Source</a>
+          <a href="https://pipedream.su/service/js-tetris.com/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Pacman -->
+      <div class="game-card">
+        <h3>Pacman</h3>
+        <div class="game-desc">HTML5 Pacman by Mathew Valente.</div>
+        <div class="game-actions">
+          <a href="https://www.mathewsachin.com/projects/pacman/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/mathewsachin/Pacman" target="_blank" rel="noopener">Source</a>
+          <a href="https://interstellars.space/service/www.mathewsachin.com/projects/pacman/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Sudoku -->
+      <div class="game-card">
+        <h3>Sudoku</h3>
+        <div class="game-desc">Browser Sudoku with open source code.</div>
+        <div class="game-actions">
+          <a href="https://robatron.github.io/sudoku-js/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/robatron/sudoku-js" target="_blank" rel="noopener">Source</a>
+          <a href="https://mathsolver.pro/service/robatron.github.io/sudoku-js/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Snake -->
+      <div class="game-card">
+        <h3>Snake</h3>
+        <div class="game-desc">Classic Snake game for browser.</div>
+        <div class="game-actions">
+          <a href="https://playsnake.org/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/CodeExplainedRepo/Snake-JavaScript" target="_blank" rel="noopener">Source</a>
+          <a href="https://incognitoproxy.com/service/playsnake.org/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Asteroids -->
+      <div class="game-card">
+        <h3>Asteroids</h3>
+        <div class="game-desc">HTML5 Asteroids clone.</div>
+        <div class="game-actions">
+          <a href="https://www.freeasteroids.org/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/dmcinnes/asteroids" target="_blank" rel="noopener">Source</a>
+          <a href="https://unblocker.cc/service/www.freeasteroids.org/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Space Invaders -->
+      <div class="game-card">
+        <h3>Space Invaders</h3>
+        <div class="game-desc">Classic Space Invaders clone.</div>
+        <div class="game-actions">
+          <a href="https://spaceinvaders.co/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/StrykerKKD/Space-Invaders" target="_blank" rel="noopener">Source</a>
+          <a href="https://pipedream.su/service/spaceinvaders.co/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Pong -->
+      <div class="game-card">
+        <h3>Pong</h3>
+        <div class="game-desc">Classic Pong browser game.</div>
+        <div class="game-actions">
+          <a href="https://pong-2d.com/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/jagracar/pong" target="_blank" rel="noopener">Source</a>
+          <a href="https://rammerhead.org/service/pong-2d.com/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Solitaire -->
+      <div class="game-card">
+        <h3>Solitaire</h3>
+        <div class="game-desc">Klondike Solitaire in HTML5.</div>
+        <div class="game-actions">
+          <a href="https://www.solitr.com/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/binarykitchen/Solitaire" target="_blank" rel="noopener">Source</a>
+          <a href="https://mathsolver.pro/service/www.solitr.com/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Chess -->
+      <div class="game-card">
+        <h3>Chess</h3>
+        <div class="game-desc">Play chess in browser (lichess.org open source).</div>
+        <div class="game-actions">
+          <a href="https://lichess.org/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/lichess-org/lila" target="_blank" rel="noopener">Source</a>
+          <a href="https://interstellars.space/service/lichess.org/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Cookie Clicker (open source version) -->
+      <div class="game-card">
+        <h3>Cookie Clicker Open</h3>
+        <div class="game-desc">Open source incremental Cookie Clicker.</div>
+        <div class="game-actions">
+          <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/Orteil/cookieclicker" target="_blank" rel="noopener">Source</a>
+          <a href="https://unblocker.cc/service/orteil.dashnet.org/cookieclicker/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- FullScreen Mario -->
+      <div class="game-card">
+        <h3>FullScreen Mario</h3>
+        <div class="game-desc">Open source Mario clone in JS.</div>
+        <div class="game-actions">
+          <a href="https://www.fullscreenmario.com/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/FullScreenShenanigans/FullScreenMario" target="_blank" rel="noopener">Source</a>
+          <a href="https://pipedream.su/service/www.fullscreenmario.com/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- GeoGuessr (Open Source) -->
+      <div class="game-card">
+        <h3>OpenGuessr</h3>
+        <div class="game-desc">GeoGuessr open source alternative.</div>
+        <div class="game-actions">
+          <a href="https://geotastic.net/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/geotastic/geotastic" target="_blank" rel="noopener">Source</a>
+          <a href="https://incognitoproxy.com/service/geotastic.net/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Wordle (open source) -->
+      <div class="game-card">
+        <h3>Wordle</h3>
+        <div class="game-desc">Open source Wordle game.</div>
+        <div class="game-actions">
+          <a href="https://wordlegame.org/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/cwackerfuss/react-wordle" target="_blank" rel="noopener">Source</a>
+          <a href="https://interstellars.space/service/wordlegame.org/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Agar.io (open source version) -->
+      <div class="game-card">
+        <h3>OpenAgar</h3>
+        <div class="game-desc">Open source Agar.io clone.</div>
+        <div class="game-actions">
+          <a href="https://ogarproject.com/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/OgarProject/Ogar" target="_blank" rel="noopener">Source</a>
+          <a href="https://rammerhead.org/service/ogarproject.com/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Krunker (open source FPS) -->
+      <div class="game-card">
+        <h3>Krunker</h3>
+        <div class="game-desc">Open source fast-paced FPS browser game.</div>
+        <div class="game-actions">
+          <a href="https://krunker.io/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/krunkerio" target="_blank" rel="noopener">Source</a>
+          <a href="https://mathsolver.pro/service/krunker.io/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Celeste Classic -->
+      <div class="game-card">
+        <h3>Celeste Classic</h3>
+        <div class="game-desc">The original Celeste Pico-8 demake in browser.</div>
+        <div class="game-actions">
+          <a href="https://mattmakesgames.itch.io/celesteclassic" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/NoelFB/Celeste" target="_blank" rel="noopener">Source</a>
+          <a href="https://pipedream.su/service/mattmakesgames.itch.io/celesteclassic/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Open HexGL -->
+      <div class="game-card">
+        <h3>HexGL</h3>
+        <div class="game-desc">Futuristic racing game in WebGL.</div>
+        <div class="game-actions">
+          <a href="https://hexgl.bkcore.com/play/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/BKcore/HexGL" target="_blank" rel="noopener">Source</a>
+          <a href="https://incognitoproxy.com/service/hexgl.bkcore.com/play/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- OpenSnowman.io -->
+      <div class="game-card">
+        <h3>Snowman.io</h3>
+        <div class="game-desc">Fun open-source multiplayer snowball game.</div>
+        <div class="game-actions">
+          <a href="https://snowball-io.github.io/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/Snowball-io/snowball-io" target="_blank" rel="noopener">Source</a>
+          <a href="https://pipedream.su/service/snowball-io.github.io/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- Open Slither.io (OpenSlither) -->
+      <div class="game-card">
+        <h3>OpenSlither</h3>
+        <div class="game-desc">Open source version of Slither.io</div>
+        <div class="game-actions">
+          <a href="https://openslither.com/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/OpenSlither/OpenSlither" target="_blank" rel="noopener">Source</a>
+          <a href="https://unblocker.cc/service/openslither.com/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+      <!-- OpenRacer -->
+      <div class="game-card">
+        <h3>OpenRacer</h3>
+        <div class="game-desc">Free open-source multiplayer racing game.</div>
+        <div class="game-actions">
+          <a href="https://openracer.org/" target="_blank" rel="noopener">Play</a>
+          <a href="https://github.com/openracer/openracer" target="_blank" rel="noopener">Source</a>
+          <a href="https://interstellars.space/service/openracer.org/" target="_blank" rel="noopener">Proxy</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="panic-tip">
+      <b>Panic Button:</b> Press <b>8</b> on your keyboard to instantly switch to Google!<br>
+      (Useful if a teacher walks by)
+    </div>
+  </section>
+  <section>
+    <div class="about">
+      This is a massive hub of open-source browser games from GitHub and the web, with multiple proxy options for educational use only.
+      <br><br>
+      <b>Disclaimer:</b> No website can guarantee bypassing GoGuardian or school filters. Use all resources responsibly and ethically. Only play games at appropriate times and always respect your institution's policies.
+      <br><br>
+      <b>Want to add more games?</b> Fork this repo and contribute!
+    </div>
+  </section>
+</div>
+<script>
+// Teacher Panic Button: Press 8 for Google
+window.addEventListener("keydown", function(e) {
+  if (e.key === "8" && !e.repeat) {
+    window.location.href = "https://www.google.com";
+  }
+});
+</script>
+</body>
+</html>
